@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'segoepr';
+    src: url('fonts/segoepr.eot'),
+         url('fonts/segoepr.woff'),
+         url('fonts/segoepr.ttf'),
+         url('fonts/segoepr.svg');
+  }
+  @font-face {
+    font-family: 'lp-pinselschrift';
+    src: url('fonts/lp-pinselschrift.eot'),
+         url('fonts/lp-pinselschrift.woff'),
+         url('fonts/lp-pinselschrift.ttf'),
+         url('fonts/lp-pinselschrift.svg');
+  }
+
+  /*__________Body__________*/
+
+  body {
+    background: linear-gradient(to top, #64646460, #9198e5c2);
+  }
+
+  /*__________Main__________*/
+
+  main {
+    background: linear-gradient(#e66465, #9198e5);
+  }
+  img {
+      border-radius: 10px;
+  }
+  /*__________Header__________*/
+
+header {
+    display: flex;
+}
+  header img{
+    height: 300px; 
+    width: 300px; 
+    border: 2px solid black;
+    border-radius: 50%; 
+  }
+main {
+    height: 100rem;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgb(90, 82, 82);
+    background-color: aqua;
+}
+
+h1, h2 {
+    font-family: 'lp-pinselschrift';
+}
+p, ul {
+    font-family: 'segoepr';
+}
+p {
+    width: 80%;
+}
+/*__________Aside__________*/
+
+aside {
+    height: 18rem;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgb(90, 82, 82);
+    background-color: rgb(179, 162, 117);
+}
+/*__________Header__________*/
